@@ -7,6 +7,9 @@ function  Header() {
    function close(){
     const nav=document.getElementById('navbar');
       nav.classList.remove("active");
+      const mobile=document.getElementById('mobile');
+      mobile.style.display="block";
+
 
   };
 
@@ -14,7 +17,7 @@ function  Header() {
     const nav=document.getElementById('navbar');
     const mobile=document.getElementById('mobile');
       nav.classList.add("active");
-      mobile.remove();
+      mobile.style.display="none";
   }
     return (
     <Fragment>
