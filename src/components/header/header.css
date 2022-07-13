@@ -20,6 +20,8 @@ nav {
   align-items: center;
   transition: 0.3s ease;
   transform: rotateZ(45deg);
+  outline: none;
+  background-color: transparent;
 }
 
 .logo:hover {
@@ -81,6 +83,12 @@ nav {
   color: #ccd6f6;
   transition: 0.7s ease;
   letter-spacing: 1.3px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+#navbar li button:focus {
+  outline: none;
 }
 
 #navbar li button:hover,

@@ -20,14 +20,14 @@ function  Header() {
     <Fragment>
        <header id='header' >
         <nav >
-         <button href="#" className='logo' ><img  alt="" />A</button>
+         <button  className='logo' ><img  alt="" />A</button>
          <div>
           <ul id='navbar'>
-            <li > <button href="#"  >About</button></li>
-            <li > <a href="#">Portfolio</a></li>
-            <li > <button href="#">Conatct</button></li>
-            <li  className='resume' > <a href="" className='resume'>Resume</a></li>
-            <span href="#" className='close' onClick={close} >
+            <li > <button  >About</button></li>
+            <li > <button >Portfolio</button></li>
+            <li > <button >Conatct</button></li>
+            <li  className='resume' > <button href="" className='resume'>Resume</button></li>
+            <span className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />
               </span>
           </ul>

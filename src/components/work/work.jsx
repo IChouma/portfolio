@@ -20,8 +20,8 @@ function Work() {
                Package Control, Atom Package Manager, and npm.</p>
                <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
                <div>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
+                <button><img src="" alt="" /></button>
+                <button ><img src="" alt="" /></button>
                </div>
           </div>
         </div>
@@ -36,8 +36,8 @@ function Work() {
                Package Control, Atom Package Manager, and npm.</p>
                <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
                <div>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
+                <button><img src="" alt="" /></button>
+                <button><img src="" alt="" /></button>
                </div>
           </div>
           <img src="" alt="" />
@@ -55,8 +55,8 @@ function Work() {
                Package Control, Atom Package Manager, and npm.</p>
                <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
                <div>
-                <a href=""><img src="" alt="" /></a>
-                <a href=""><img src="" alt="" /></a>
+                <button><img src="" alt="" /></button>
+                <button><img src="" alt="" /></button>
                </div>
           </div>
         </div>
