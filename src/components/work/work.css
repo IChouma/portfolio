@@ -1,0 +1,142 @@
+#work .title div {
+  flex-grow: 1;
+  background-color: rgba(100, 255, 218, 0.3);
+  height: 1px;
+}
+#work {
+  display: flex;
+  flex-direction: column;
+}
+#work .title {
+  padding: 50px 0;
+}
+.title h1 {
+  flex-grow: 1;
+    border-right: 3px solid #64ffda;
+  border-left: 3px solid #64ffda;
+  border-bottom: 1px solid #64ffda;
+  border-top: 1px solid #64ffda;
+  padding: 5px ;
+}
+.example {
+  display: flex;
+  justify-content: space-between;
+}
+.example > img {
+  background-color: #64ffda;
+  min-width: 650px;
+  border-radius: 5px;
+  min-height: 380px;
+  padding: 15px 20px;
+  transition: 0.3s ease;
+}
+.example > img:hover {
+  background-color: #081427;
+  box-shadow: 2px 2px 2px 2px #081427;
+}
+.example > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+.example > div h3 {
+  color: aquamarine;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.example > div h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #ccd6f6;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.example > div p {
+  padding: 20px 30px;
+  min-width: 150%;
+  font-size: 18px;
+  color: #ccd6f6;
+  background-color: #041329;
+  border-radius: 7px;
+  margin-top: 25px;
+}
+.example > div span {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  word-spacing: 5px;
+  color: #ccd6f6;
+}
+.example > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.example > div > div a {
+  min-width: 25px;
+  min-height: 25px;
+  background-color: #64ffda;
+  margin-right: 10px;
+}
+.ex,
+.ex2 {
+  margin-top: 50px;
+}
+
+.ex .example > div > div {
+  justify-content: flex-start;
+}
+.ex .example > div {
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  #work {
+    min-height: fit-content;
+  }
+  .example {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #081427;
+    padding-bottom: 25px;
+  }
+  .example > img {
+    min-width: 100%;
+    order: 1;
+  }
+  .example > div {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+  .example > div p {
+    min-width: 100%;
+  }
+
+  .ex,
+  .ex2 {
+    padding: 0 100px;
+  }
+
+  .ex .example > div > div {
+    justify-content: flex-end;
+  }
+  .ex .example > div {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 477px) {
+  .ex,
+  .ex2 {
+    padding: 50px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

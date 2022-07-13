@@ -1,0 +1,52 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 15px;
+}
+#contact h3 {
+  color: #64ffda;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+#contact h1 {
+  color: #ccd6f6;
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 35px;
+}
+#contact p {
+  color: #a8b2d1;
+  width: 50%;
+  text-align: center;
+  margin-top: 35px;
+}
+#contact a {
+  width: 120px;
+  height: 50px;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  transition: 0.3s ease;
+  margin-top: 35px;
+  text-align: center;
+  padding: 10px 15px;
+  margin-top: 50px;
+}
+#contact a:hover {
+  background-color: #112240;
+}
+
+#contact span {
+  color: #a8b2d1;
+  margin-top: 150px;
+  font-size: 14px;
+  word-spacing: 5px;
+}
+#contact span > span {
+  color: #64ffda;
+}
