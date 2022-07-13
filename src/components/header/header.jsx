@@ -20,14 +20,14 @@ function  Header() {
     <Fragment>
        <header id='header' >
         <nav >
-         <a href="https://github.com/IChouma" className='logo' ><img  alt="" />A</a>
+         <a href="#" className='logo' ><img  alt="" />A</a>
          <div>
           <ul id='navbar'>
-            <li > <a href="https://github.com/IChouma"  >About</a></li>
-            <li > <a href="https://github.com/IChouma">Portfolio</a></li>
-            <li > <a href="https://github.com/IChouma">Conatct</a></li>
+            <li > <a href="#"  >About</a></li>
+            <li > <a href="#">Portfolio</a></li>
+            <li > <a href="#">Conatct</a></li>
             <li  className='resume' > <a href="" className='resume'>Resume</a></li>
-            <span href="https://github.com/IChouma" className='close' onClick={close} >
+            <span href="#" className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />
               </span>
           </ul>
