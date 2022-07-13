@@ -23,9 +23,9 @@ function  Header() {
          <a href="" className='logo' ><img  alt="" />A</a>
          <div>
           <ul id='navbar'>
-            <li > <a href=""  >About</a></li>
-            <li > <a href="">Portfolio</a></li>
-            <li > <a href="">Conatct</a></li>
+            <li > <a href="https://github.com/IChouma"  >About</a></li>
+            <li > <a href="https://github.com/IChouma">Portfolio</a></li>
+            <li > <a href="https://github.com/IChouma">Conatct</a></li>
             <li  className='resume' > <a href="" className='resume'>Resume</a></li>
             <a href="" className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />
