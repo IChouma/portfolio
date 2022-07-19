@@ -1,6 +1,12 @@
 import React, { Fragment } from 'react'
-import "../about/about.css"
-import "./work.css"
+import "../about/about.css";
+import "./work.css";
+import github from "../../images/github-fff.png";
+import link from "../../images/link.png";
+import eCommerceV from "../../images/E-commerce-v.mp4";
+import snakeV from "../../images/snake-v.mp4";
+import socialV from "../../images/social-v.mp4";
+import fbCloneV from "../../images/fb-clone-v.mp4";
 function Work() {
   return (
     <Fragment>
@@ -11,17 +17,17 @@ function Work() {
         <div></div>
         </div>
         <div className='example'>
-          <img src="" alt="" />
+          <video  src={eCommerceV} autoPlay loop> </video>
           <div>
             <h3>Featured Project</h3>
-            <h2>Halcyon Theme</h2>
-            <p>A minimal, dark blue theme for VS Code, Sublime Text, 
-              Atom, iTerm, and more. Available on Visual Studio Marketplace,
-               Package Control, Atom Package Manager, and npm.</p>
-               <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
+            <h2>E-commerce website</h2>
+            <p>Responsive and dynamique website, built with HTML, CSS, Javascript, React.js, redux-toolkit
+             
+            </p>
+               <span> React, Redux Project</span>
                <div>
-                <button><img src="" alt="" /></button>
-                <button ><img src="" alt="" /></button>
+                <a href=""><img src={github} alt="" /></a>
+                <a href="" ><img src={link} alt="" /></a>
                </div>
           </div>
         </div>
@@ -30,35 +36,49 @@ function Work() {
         <div className='example'>
           <div>
             <h3>Featured Project</h3>
-            <h2>Halcyon Theme</h2>
-            <p>A minimal, dark blue theme for VS Code, Sublime Text, 
-              Atom, iTerm, and more. Available on Visual Studio Marketplace,
-               Package Control, Atom Package Manager, and npm.</p>
-               <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
+            <h2>Snake-game</h2>
+            <p>My first Game,built with  HTML, CSS and Javascript with buttons
+               to control Speed and Number of segments added when the snake (White) eat the food (Green).</p>
+               <span> Javascript small Game-App</span>
                <div>
-                <button><img src="" alt="" /></button>
-                <button><img src="" alt="" /></button>
+                <a href=""><img src={github} alt="" /></a>
+                <a href="" ><img src={link} alt="" /></a>
                </div>
           </div>
-          <img src="" alt="" />
-
+                   <video src={snakeV} autoPlay loop ></video>
         </div>
    </section>
     <section  className='section-p ex2'>
         <div className='example'>
-          <img src="" alt="" />
+                    <video src={socialV} autoPlay loop></video>
+
           <div>
             <h3>Featured Project</h3>
-            <h2>Halcyon Theme</h2>
-            <p>A minimal, dark blue theme for VS Code, Sublime Text, 
-              Atom, iTerm, and more. Available on Visual Studio Marketplace,
-               Package Control, Atom Package Manager, and npm.</p>
-               <span> VS Code  Sublime Text Atom iTerm2 Hyper</span>
+            <h2>Simple Portfolio</h2>
+            <p>A Portdolio simple built with HTML and CSS Only, with beuatiful
+               animation for BUttons, backgrounds and dynamique slideshow.</p>
+               <span> HTML and CSS Portfolio</span>
                <div>
-                <button><img src="" alt="" /></button>
-                <button><img src="" alt="" /></button>
+                <a href=""><img src={github} alt="" /></a>
+                <a href="" ><img src={link} alt="" /></a>
                </div>
           </div>
+        </div>
+   </section>
+   <section  className='section-p ex'>
+        <div className='example'>
+          <div>
+            <h3>Featured Project</h3>
+            <h2>Facebook clone</h2>
+            <p>A clone for facebook Home-page, built using HTML, CSS and javascript
+               (the react used just to organize hte work). </p>
+               <span> facebook Home-page (clone)</span>
+               <div>
+                <a href=""><img src={github} alt="" /></a>
+                <a href="" ><img src={link} alt="" /></a>
+               </div>
+          </div>
+                   <video src={fbCloneV} autoPlay ></video>
         </div>
    </section>
    </Fragment>

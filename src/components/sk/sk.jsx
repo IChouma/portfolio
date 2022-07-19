@@ -86,6 +86,22 @@ function Sk() {
     </div>
     <div className="text">REDUX/REDUX-TOOLKIT</div>
 </div>
+<div className="card">
+    <div className="box">
+        <div>
+            <div className="percent">
+                <svg>
+                    <circle cx="70" cy="70" r="70" ></circle>
+                    <circle cx="70" cy="70"r="70" ></circle>
+                </svg>
+                <div className="number">
+                    <h2> 85<span>%</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="text">NEXT.JS</div>
+</div>
     </div>
    </Fragment>
   )

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Fragment } from 'react'
-import "./project.css"
+import "./project.css";
+import github from "../../images/github-fff.png";
+import link from "../../images/link.png";
 
 function Project
 () {
@@ -12,42 +14,32 @@ function Project
         <div className="archive">
             <div className="file">
                 <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <a href=""><img src={github} alt="" /></a>
+                    <a href=""><img src={link} alt="" /></a>
                 </div>
-                <h2>Time to have more Fun</h2>
-                <p>Time to have more FunTime to have more FunTime to have more Fun Time to have more Fun</p>
-                <span> Algolia wordpress PHP</span>
+                <h2>Demo Courses Website </h2>
+                <p>Simple website built with HTML, CSS and react (just to organize sections)</p>
+                <span> HTML CSS React</span>
             </div>
             <div className="file">
                 <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                   <a href=""><img src={github} alt="" /></a>
+                    <a href=""><img src={link} alt="" /></a>
                 </div>
-                <h2>Time to have more Fun</h2>
-                <p>Time to have more FunTime to have more FunTime to have more Fun Time to have more Fun</p>
-                <span> Algolia wordpress PHP</span>
+                <h2>Small and simple Jump-Game</h2>
+                <p>Small JUmp-Game using HTML and CSS animaton </p>
+                <span> HTML CSS</span>
             </div>
             <div className="file">
                 <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                   <a href=""><img src={github} alt="" /></a>
+                    <a href=""><img src={link} alt="" /></a>
                 </div>
-                <h2>Time to have more Fun</h2>
-                <p>Time to have more FunTime to have more FunTime to have more Fun Time to have more Fun</p>
-                <span> Algolia wordpress PHP</span>
-            </div>
-            <div className="file">
-                <div>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                </div>
-                <h2>Time to have more Fun</h2>
-                <p>Time to have more FunTime to have more FunTime to have more Fun Time to have more Fun</p>
-                <span> Algolia wordpress PHP</span>
+                <h2>TMy first Project</h2>
+                <p>This is my first CSS project, Responsive  and amazing</p>
+                <span> HTML  CSS</span>
             </div>
         </div>
-        {/* <button className='show-ml'>Show More</button> */}
     </section>
 </Fragment>
   )

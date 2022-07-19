@@ -49,4 +49,9 @@
 }
 #contact span > span {
   color: #64ffda;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#contact span::first-letter {
+  font-size: 20px;
 }

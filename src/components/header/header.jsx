@@ -26,10 +26,10 @@ function  Header() {
          <button  className='logo' ><img  alt="" />A</button>
          <div>
           <ul id='navbar'>
-            <li > <button  >About</button></li>
-            <li > <button >Portfolio</button></li>
-            <li > <button >Conatct</button></li>
-            <li  className='resume' > <button href="" className='resume'>Resume</button></li>
+            <li > <a href=""  >About</a></li>
+            <li > <a href="" >Portfolio</a></li>
+            <li > <a href="" >Conatct</a></li>
+            <li  className='resume' > <a href="" className='resume'>Resume</a></li>
             <span className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />
               </span>

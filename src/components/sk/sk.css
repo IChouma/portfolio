@@ -93,6 +93,9 @@
 .card:nth-child(5) .text {
   background-color: #06012c;
 }
+.card:nth-child(6) .text {
+  background-color: #1cc7be;
+}
 svg {
   position: relative;
   width: 150px;
@@ -126,4 +129,7 @@ svg circle:nth-child(2) {
 }
 .card:nth-child(5) svg circle:nth-child(2) {
   stroke-dashoffset: calc(440px - (440px * 90) / 100);
+}
+.card:nth-child(6) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440px - (440px * 85) / 100);
 }

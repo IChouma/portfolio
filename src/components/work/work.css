@@ -12,28 +12,30 @@
 }
 .title h1 {
   flex-grow: 1;
-    border-right: 3px solid #64ffda;
+  border-right: 3px solid #64ffda;
   border-left: 3px solid #64ffda;
   border-bottom: 1px solid #64ffda;
   border-top: 1px solid #64ffda;
-  padding: 5px ;
+  padding: 5px;
 }
 .example {
   display: flex;
   justify-content: space-between;
 }
-.example > img {
+.example > video {
   background-color: #64ffda;
-  min-width: 650px;
+  width: 650px;
   border-radius: 5px;
-  min-height: 380px;
+  height: 100%;
   padding: 15px 20px;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
-.example > img:hover {
-  background-color: #081427;
+.example > video:hover {
+  background-color: #2a816d;
   box-shadow: 2px 2px 2px 2px #081427;
+  z-index: 50;
 }
+
 .example > div {
   width: 50%;
   display: flex;
@@ -79,10 +81,13 @@
   margin-top: 25px;
 }
 .example > div > div a {
-  min-width: 25px;
-  min-height: 25px;
-  background-color: #64ffda;
-  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.example > div > div a img {
+  width: 30px;
+  height: 30px;
 }
 .ex,
 .ex2 {
@@ -133,6 +138,9 @@
 }
 
 @media (max-width: 477px) {
+  .example > video {
+    max-width: 477px;
+  }
   .ex,
   .ex2 {
     padding: 50px;

@@ -15,7 +15,7 @@ function Contact() {
        my inbox is always open. Whether you have a question or
        just want to say hi, I’ll try my best to get back to you!</p>
        <a href="mailto:iiicii@putlook.com" rel='noopener noreferrer' target="_blank">Say Hello!</a>
-       <span>Designed & Built by <span>Abdeljabar CHOUMA</span></span>
+       <span>&copy;  Designed & Built by <span>Abdeljabar CHOUMA</span></span>
    </section>
   )
 }
