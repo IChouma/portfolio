@@ -1,0 +1,23 @@
+#code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+#code div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#code h1 {
+  color: #64ffda;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 767px) {
+  #code div {
+    flex-direction: column;
+  }
+}

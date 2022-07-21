@@ -26,7 +26,7 @@ function Work() {
             </p>
                <span> React, Redux Project</span>
                <div>
-                <a href=""><img src={github} alt="" /></a>
+                <a href="https://github.com/IChouma/E-commerce-ws"><img src={github} alt="" /></a>
                 <a href="" ><img src={link} alt="" /></a>
                </div>
           </div>
@@ -41,8 +41,8 @@ function Work() {
                to control Speed and Number of segments added when the snake (White) eat the food (Green).</p>
                <span> Javascript small Game-App</span>
                <div>
-                <a href=""><img src={github} alt="" /></a>
-                <a href="" ><img src={link} alt="" /></a>
+                <a href="https://github.com/IChouma/ABDELJABAR-SNAKE-GAME"><img src={github} alt="" /></a>
+                <a href="https://ichouma.github.io/Snake-Game/" ><img src={link} alt="" /></a>
                </div>
           </div>
                    <video src={snakeV} autoPlay loop ></video>
@@ -59,8 +59,8 @@ function Work() {
                animation for BUttons, backgrounds and dynamique slideshow.</p>
                <span> HTML and CSS Portfolio</span>
                <div>
-                <a href=""><img src={github} alt="" /></a>
-                <a href="" ><img src={link} alt="" /></a>
+                <a href="https://github.com/IChouma/Social-portfolio"><img src={github} alt="" /></a>
+                <a href="https://ichouma.github.io/Social-portfolio/" ><img src={link} alt="" /></a>
                </div>
           </div>
         </div>
@@ -74,11 +74,11 @@ function Work() {
                (the react used just to organize hte work). </p>
                <span> facebook Home-page (clone)</span>
                <div>
-                <a href=""><img src={github} alt="" /></a>
+                <a href="https://github.com/IChouma/facebook-clone"><img src={github} alt="" /></a>
                 <a href="" ><img src={link} alt="" /></a>
                </div>
           </div>
-                   <video src={fbCloneV} autoPlay ></video>
+                   <video src={fbCloneV} autoPlay loop></video>
         </div>
    </section>
    </Fragment>

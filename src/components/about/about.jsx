@@ -21,7 +21,7 @@ function About() {
                 inclusive products and digital experiences at Upstatement for a variety of clients,
                 And learning Mobile developpment.
                 <br /><br />
-                I also recently build a E-commerce complete website using HTML, CSS JAVASCRIPT, REACT.JS(Class,Hooks), REDUX/REDUX-TOOLKIT.
+                I also recently build a E-commerce complete website using HTML, CSS JAVASCRIPT, REACT.JS (Class,Hooks), REDUX/REDUX-TOOLKIT.
                 <br /><br />
                 Here are a few technologies I’ve been working with recently:</p>
             <div>

@@ -6,6 +6,7 @@ import About from './components/about/about';
 import Work from './components/work/work';
 import Project from './components/projects/project';
 import Contact from './components/contact/contact';
+import Code from './components/code/code';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <About/>
     <Work/>
     <Project/>
+    <Code/>
     <Contact/>
   
     </Fragment>

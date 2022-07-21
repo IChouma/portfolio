@@ -14,16 +14,16 @@ function Project
         <div className="archive">
             <div className="file">
                 <div>
-                    <a href=""><img src={github} alt="" /></a>
+                    <a href="https://github.com/IChouma/Courses-ws"><img src={github} alt="" /></a>
                     <a href=""><img src={link} alt="" /></a>
                 </div>
                 <h2>Demo Courses Website </h2>
-                <p>Simple website built with HTML, CSS and react (just to organize sections)</p>
+                <p>Simple website built built from UI/UX design, with HTML, CSS and react (just to organize sections)</p>
                 <span> HTML CSS React</span>
             </div>
             <div className="file">
                 <div>
-                   <a href=""><img src={github} alt="" /></a>
+                   <a href="https://github.com/IChouma/JUMP-GMAE-FROM-ABDELJABAR"><img src={github} alt="" /></a>
                     <a href=""><img src={link} alt="" /></a>
                 </div>
                 <h2>Small and simple Jump-Game</h2>
@@ -32,13 +32,13 @@ function Project
             </div>
             <div className="file">
                 <div>
-                   <a href=""><img src={github} alt="" /></a>
+                   <a href="https://github.com/IChouma/kasper"><img src={github} alt="" /></a>
                     <a href=""><img src={link} alt="" /></a>
                 </div>
-                <h2>TMy first Project</h2>
-                <p>This is my first CSS project, Responsive  and amazing</p>
+                <h2>My first Project Kasper</h2>
+                <p>This is my first CSS project,built from UI/UX design, Responsive  and amazing</p>
                 <span> HTML  CSS</span>
-            </div>
+            </div> 
         </div>
     </section>
 </Fragment>
