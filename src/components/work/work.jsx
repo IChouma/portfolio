@@ -27,7 +27,7 @@ function Work() {
                <span> React, Redux Project</span>
                <div>
                 <a href="https://github.com/IChouma/E-commerce-ws"><img src={github} alt="" /></a>
-                <a href="" ><img src={link} alt="" /></a>
+                <a href={"#"} ><img src={link} alt="" /></a>
                </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ function Work() {
                <span> facebook Home-page (clone)</span>
                <div>
                 <a href="https://github.com/IChouma/facebook-clone"><img src={github} alt="" /></a>
-                <a href="" ><img src={link} alt="" /></a>
+                <a href={"#"} ><img src={link} alt="" /></a>
                </div>
           </div>
                    <video src={fbCloneV} autoPlay loop></video>
