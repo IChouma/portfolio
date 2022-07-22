@@ -15,7 +15,7 @@ function Project
             <div className="file">
                 <div>
                     <a href="https://github.com/IChouma/Courses-ws"><img src={github} alt="" /></a>
-                    <a href=""><img src={link} alt="" /></a>
+                    <a href="https://ichouma.github.io/Courses-ws/"><img src={link} alt="" /></a>
                 </div>
                 <h2>Demo Courses Website </h2>
                 <p>Simple website built built from UI/UX design, with HTML, CSS and react (just to organize sections)</p>
@@ -24,7 +24,7 @@ function Project
             <div className="file">
                 <div>
                    <a href="https://github.com/IChouma/JUMP-GMAE-FROM-ABDELJABAR"><img src={github} alt="" /></a>
-                    <a href=""><img src={link} alt="" /></a>
+                    <a href="https://ichouma.github.io/JUMP-GMAE-FROM-ABDELJABAR/"><img src={link} alt="" /></a>
                 </div>
                 <h2>Small and simple Jump-Game</h2>
                 <p>Small JUmp-Game using HTML and CSS animaton </p>
@@ -33,7 +33,7 @@ function Project
             <div className="file">
                 <div>
                    <a href="https://github.com/IChouma/kasper"><img src={github} alt="" /></a>
-                    <a href=""><img src={link} alt="" /></a>
+                    <a href="https://ichouma.github.io/kasper/"><img src={link} alt="" /></a>
                 </div>
                 <h2>My first Project Kasper</h2>
                 <p>This is my first CSS project,built from UI/UX design, Responsive  and amazing</p>

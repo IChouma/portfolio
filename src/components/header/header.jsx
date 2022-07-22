@@ -25,9 +25,9 @@ function  Header() {
          <button  className='logo' ><img  alt="" />A</button>
          <div>
           <ul id='navbar'>
-            <li > <a href={"go to #about"}  ><span>01.</span>  About</a></li>
-            <li > <a href={"go to #work"} ><span>02.</span>  Portfolio</a></li>
-            <li > <a href={"go to #contact"} ><span>03.</span>  Conatct</a></li>
+            <li > <a href={"https://abdeljabar-portfolio.netlify.app/"}  ><span>01.</span>  About</a></li>
+            <li > <a href={"https://abdeljabar-portfolio.netlify.app/"} ><span>02.</span>  Portfolio</a></li>
+            <li > <a href={"https://abdeljabar-portfolio.netlify.app/"} ><span>03.</span>  Conatct</a></li>
             <li  className='resume' > <a href={""} className='resume'>Resume</a></li>
             <span className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />
