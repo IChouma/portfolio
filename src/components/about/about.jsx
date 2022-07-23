@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react'
 import Sk from '../sk/sk'
 import "./about.css"
+import chouma from "./chouma.jpg"
 
 function About() {
   return (
@@ -25,7 +26,7 @@ function About() {
                 <br /><br />
                 Here are a few technologies I’ve been working with recently:</p>
             <div>
-                <img src="" alt="" />
+                <img src={chouma} alt="" />
             </div>
         </div>
         <div className='skills'>
