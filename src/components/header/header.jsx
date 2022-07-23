@@ -26,8 +26,8 @@ function  Header() {
          <div>
           <ul id='navbar'>
             <li > <a href={"#about"}  ><span>01.</span>  About</a></li>
-            <li > <a href={"#portfolio"} ><span>02.</span>  Portfolio</a></li>
-            <li > <a href={"go to #contact"} ><span>03.</span>  Conatct</a></li>
+            <li > <a href={"#work"} ><span>02.</span>  Portfolio</a></li>
+            <li > <a href={"#contact"} ><span>03.</span>  Conatct</a></li>
             <li  className='resume' > <a href={"#header"} className='resume'>Resume</a></li>
             <span className='close' onClick={close} >
                 <hr className='hr1' /><hr className='hr2' />

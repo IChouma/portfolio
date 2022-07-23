@@ -15,7 +15,7 @@ function Project
             <div className="file">
                 <div>
                     <a href="https://github.com/IChouma/Courses-ws"><img src={github} alt="" /></a>
-                    <a href="https://ichouma.github.io/Courses-ws/"><img src={link} alt="" /></a>
+                    <a href="https://courses-ws.netlify.app/"><img src={link} alt="" /></a>
                 </div>
                 <h2>Demo Courses Website </h2>
                 <p>Simple website built built from UI/UX design, with HTML, CSS and react (just to organize sections)</p>
